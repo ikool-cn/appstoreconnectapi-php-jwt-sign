@@ -70,7 +70,7 @@ class ECSign
         }
 
         if (function_exists('json_last_error') && $errno = json_last_error()) {
-            static::handleJsonError($errno);
+            throw new \Exception(json_last_error_msg());
         } elseif ($obj === null && $input !== 'null') {
             throw new \Exception('Null result with non-null input');
         }
@@ -87,7 +87,7 @@ class ECSign
     {
         $json = json_encode($input);
         if (function_exists('json_last_error') && $errno = json_last_error()) {
-            static::handleJsonError($errno);
+            throw new \Exception(json_last_error_msg());
         } elseif ($json === 'null' && $input !== null) {
             throw new \Exception('Null result with non-null input');
         }
