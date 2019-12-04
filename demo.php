@@ -1,7 +1,3 @@
-# appstoreconnectapi-php-jwt-sign
-AppstoreconnectApi Sign Class For PHP
-
-```PHP
 <?php
 
 require './ECSign.php';
@@ -29,4 +25,3 @@ echo $token;
 
 //Just Run Test
 //curl -v -H 'Authorization: Bearer <YOUR TOKEN>' "https://api.appstoreconnect.apple.com/v1/apps"
-```
