@@ -3,6 +3,8 @@
 /**
  * ECSign For App Store Connect API
  * https://developer.apple.com/documentation/appstoreconnectapi/
+ * @author ikool
+ * @link https://github.com/ikool-cn/appstoreconnectapi-php-jwt-sign
  */
 class ECSign
 {
