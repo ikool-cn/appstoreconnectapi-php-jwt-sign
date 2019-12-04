@@ -1,5 +1,4 @@
-# appstoreconnectapi-php-jwt-sign
-AppstoreconnectApi Sign Class For PHP
+#  App Store Connect API JWT ES256  SIGN Class For PHP
 
 ```PHP
 <?php
