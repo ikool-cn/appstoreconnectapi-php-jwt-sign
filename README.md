@@ -1,4 +1,4 @@
-#  App Store Connect API JWT ES256  SIGN Class For PHP
+#  App Store Connect API JWT ES256  Signature For PHP
 
 ```PHP
 <?php
